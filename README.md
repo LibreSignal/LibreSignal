@@ -1,68 +1,36 @@
-# Signal Android 
+# LibreSignal for Android
 
-Signal is a messaging app for simple private communication with friends.
+`LibreSignal` is the **Google-Free** fork of the original `Signal` messaging app for simple private communication with friends. `LibreSignal` uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone. Featured on [Kuketz IT-Security Blog](https://www.kuketz-blog.de/?s=LibreSignal).
 
-Signal uses your phone's data connection (WiFi/3G/4G) to communicate securely, optionally supports plain SMS/MMS to function as a unified messenger, and can also encrypt the stored messages on your phone.
+# Installation
 
-Currently available on the Play store.
+[![F-Droid](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/320px-Get_it_on_F-Droid.svg.png)](https://f-droid.org/repository/browse/?fdid=org.thoughtcrime.securesms "LibreSignal on F-Droid")
 
-<a href="https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=36px /></a>
+# WebSocket Support
 
-#WebSocket Support#
-
-This branch adds rudimentary WebSocket-ONLY support to Signal Private Messenger.
-In order to build a modified version of libtextsecure is needed, for that [checkout](https://github.com/JavaJens/libtextsecure-java/tree/fix/maven_local) my fork
-
-and run: ````./gradlew tasks installArchives```` to install in local maven directory.
+This branch adds rudimentary WebSocket-ONLY support to LibreSignal Private Messenger via a modified version of `libtextsecure`, which has been included as a submodule.
 
 ## Contributing Bug reports
-We use GitHub for bug tracking. Please search the existing issues for your bug and create a new one if the issue is not yet tracked!
-
-https://github.com/WhisperSystems/Signal-Android/issues
-
-## Joining the Beta
-Want to live life on the bleeding edge and help out with testing?
-
-You can subscribe to Signal Android Beta releases here:
-https://play.google.com/apps/testing/org.thoughtcrime.securesms
- 
-If you're interested in a life of peace and tranquility, stick with the standard releases.
+We use GitHub for bug tracking. Please search the [existing issues](https://github.com/LibreSignal/LibreSignal/issues) for your bug and create a new one if yours is not present.
 
 ## Contributing Translations
-Interested in helping to translate Signal? Contribute here:
+Interested in helping to translate LibreSignal? Contribute here:
 
 https://www.transifex.com/projects/p/signal-android/
 
 ## Contributing Code
-Instructions on how to setup your development environment and build Signal can be found in  [BUILDING.md](https://github.com/WhisperSystems/Signal-Android/blob/master/BUILDING.md).
-
-If you're new to the Signal codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/WhisperSystems/Signal-Android/blob/master/CONTRIBUTING.md), that might answer some of your questions.
-
-For larger changes and feature ideas, we ask that you propose it on the [unofficial Community Forum](https://whispersystems.discoursehosting.net) for a high-level discussion with the wider community before implementation.
-
-This repository is set up with [BitHub](https://whispersystems.org/blog/bithub/), so you can make money for committing to Signal. The current BitHub price for an accepted pull request is:
-
-[![Current BitHub Price](https://bithub.herokuapp.com/v1/status/payment/commit/)](https://whispersystems.org/blog/bithub/)
+Before contributing to LibreSignal, think about adding your code to [Signal-Android](https://github.com/WhisperSystems/Signal-Android/wiki), as we pull from there. Instructions on how to setup your development environment and build LibreSignal can be found in  [BUILDING.md](https://github.com/LibreSignal/LibreSignal/blob/master/BUILDING.md). If you're new to the LibreSignal codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/LibreSignal/LibreSignal/blob/master/CONTRIBUTING.md), that might answer some questions.
 
 ## Contributing Ideas
-Have something you want to say about Open Whisper Systems projects or want to be part of the conversation? Get involved in the [community forum](https://whispersystems.discoursehosting.net).
-
-## Contributing Funds
-[![Donate](https://cloud.githubusercontent.com/assets/3121306/11278543/d46e03d0-8eeb-11e5-9691-0da1bf643192.png)](https://www.coinbase.com/checkouts/51dac699e660a4d773216b5ad94d6a0b)
-
-You can add funds to BitHub to directly help further development efforts.
+Have something you want to say about LibreSignal or want to be part of the conversation? Feel invited to [post your new idea](https://github.com/LibreSignal/LibreSignal/issues/new), but please be patient for a reply and don't be mad should developers decide to not implement it or are busy with other things.
 
 Help
 ====
 ## Support
-For troubleshooting and questions, please visit our support center!
-
-http://support.whispersystems.org/
+For troubleshooting and questions, please see our [open GitHub Issues](https://github.com/LibreSignal/LibreSignal/issues?q=is%3Aopen+is%3Aissue)!
 
 ## Documentation
-Looking for documentation? Check out the wiki!
-
-https://github.com/WhisperSystems/Signal-Android/wiki
+Looking for documentation? Check out the [original Signal wiki](https://github.com/WhisperSystems/Signal-Android/wiki).
 
 # Legal things
 ## Cryptography Notice
