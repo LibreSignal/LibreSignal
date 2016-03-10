@@ -8,7 +8,7 @@
 
 # WebSocket Support
 
-This branch adds rudimentary WebSocket-ONLY support to LibreSignal Private Messenger. In order to build a modified version of libtextsecure is needed, for that [checkout](https://github.com/JavaJens/libtextsecure-java/tree/fix/maven_local) and run: `./gradlew tasks installArchives` to install in local maven directory.
+This branch adds rudimentary WebSocket-ONLY support to LibreSignal Private Messenger via a modified version of `libtextsecure`, which has been included as a submodule.
 
 ## Contributing Bug reports
 We use GitHub for bug tracking. Please search the [existing issues](https://github.com/LibreSignal/LibreSignal/issues) for your bug and create a new one if yours is not present.
