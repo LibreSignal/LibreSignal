@@ -1,21 +1,19 @@
-Building Signal
+Building LibreSignal
 ===============
 
 Basics
 ------
 
-Signal uses [Gradle](http://gradle.org) to build the project and to maintain
-dependencies.  However, you needn't install it yourself; the
-"gradle wrapper" `gradlew`, mentioned below, will do that for you.
+Signal uses [Gradle](http://gradle.org) to build the project and to maintain dependencies.  However, you needn't install it yourself; the "gradle wrapper" `gradlew`, mentioned below, will do that for you.
 
-Building Signal
+Building LibreSignal
 ---------------
 
-The following steps should help you (re)build Signal from the command line.
+The following steps should help you (re)build LibreSignal from the command line.
 
 1. Checkout the Signal-Android project source with the command:
 
-        git clone https://github.com/WhisperSystems/Signal-Android.git
+        git clone https://github.com/LibreSignal/LibreSignal.git
 
 2. Make sure you have the [Android SDK](https://developer.android.com/sdk/index.html) installed.
 3. Ensure that the following packages are installed from the Android SDK manager:
@@ -30,6 +28,8 @@ The following steps should help you (re)build Signal from the command line.
 5. Execute Gradle:
 
         ./gradlew build
+        
+Please note that `git submodule update --init` is needed to get the submodules of LibreSignal.
 
 Visual assets
 ----------------------
@@ -62,11 +62,3 @@ Contributing code
 -----------------
 
 Code contributions should be sent via github as pull requests, from feature branches [as explained here](https://help.github.com/articles/using-pull-requests).
-
-Mailing list
-------------
-
-Development discussion happens on the whispersystems mailing list.
-[To join](https://lists.riseup.net/www/info/whispersystems)
-Send emails to whispersystems@lists.riseup.net
-
