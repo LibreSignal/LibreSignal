@@ -30,9 +30,7 @@ Help
 For troubleshooting and questions, please see our [open GitHub Issues](https://github.com/LibreSignal/LibreSignal/issues?q=is%3Aopen+is%3Aissue)!
 
 ## Documentation
-Looking for documentation? Check out the wiki!
-
-https://github.com/LibreSignal/LibreSignal/wiki
+Looking for documentation? Check out the [original Signal wiki](https://github.com/WhisperSystems/Signal-Android/wiki).
 
 # Legal things
 ## Cryptography Notice
