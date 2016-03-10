@@ -19,7 +19,7 @@ Interested in helping to translate LibreSignal? Contribute here:
 https://www.transifex.com/projects/p/signal-android/
 
 ## Contributing Code
-Instructions on how to setup your development environment and build Signal can be found in  [BUILDING.md](https://github.com/LibreSignal/LibreSignal/blob/master/BUILDING.md). If you're new to the LibreSignal codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/LibreSignal/LibreSignal/blob/master/CONTRIBUTING.md), that might answer some questions.
+Instructions on how to setup your development environment and build LibreSignal can be found in  [BUILDING.md](https://github.com/LibreSignal/LibreSignal/blob/master/BUILDING.md). If you're new to the LibreSignal codebase, we recommend going through our issues and picking out a simple bug to fix (check the "easy" label in our issues) in order to get yourself familiar. Also please have a look at the [CONTRIBUTING.md](https://github.com/LibreSignal/LibreSignal/blob/master/CONTRIBUTING.md), that might answer some questions.
 
 ## Contributing Ideas
 Have something you want to say about LibreSignal or want to be part of the conversation? Feel invited to [post your new idea](https://github.com/LibreSignal/LibreSignal/issues/new), but please be patient for a reply and don't be mad should developers decide to not implement it or are busy with other things.
