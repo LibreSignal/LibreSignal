@@ -14,6 +14,8 @@ The following steps should help you (re)build LibreSignal from the command line.
 1. Checkout the Signal-Android project source with the command:
 
         git clone https://github.com/LibreSignal/LibreSignal.git
+        
+Please note that `git submodule update --init` is needed to get the submodules of LibreSignal.
 
 2. Make sure you have the [Android SDK](https://developer.android.com/sdk/index.html) installed.
 3. Ensure that the following packages are installed from the Android SDK manager:
@@ -28,8 +30,6 @@ The following steps should help you (re)build LibreSignal from the command line.
 5. Execute Gradle:
 
         ./gradlew build
-        
-Please note that `git submodule update --init` is needed to get the submodules of LibreSignal.
 
 Visual assets
 ----------------------
