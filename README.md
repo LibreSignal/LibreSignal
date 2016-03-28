@@ -7,8 +7,8 @@
 [![F-Droid](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Get_it_on_F-Droid.svg/320px-Get_it_on_F-Droid.svg.png)](https://f-droid.org/repository/browse/?fdid=org.libresignal "LibreSignal on F-Droid")
 
 # WebSocket Support
-
-This branch adds rudimentary WebSocket-ONLY support to LibreSignal Private Messenger via a modified version of `libtextsecure`, which has been included as a submodule.
+For push notifications, Google Cloud Messaging has be completely replaced by WebSocket to directly connect to Open Whisper Systems's server.
+It's done via a modified version of `libtextsecure`, which has been included as a submodule.
 
 ## Contributing Bug reports
 We use GitHub for bug tracking. Please search the [existing issues](https://github.com/LibreSignal/LibreSignal/issues) for your bug and create a new one if yours is not present.
