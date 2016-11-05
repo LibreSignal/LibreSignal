@@ -1,4 +1,12 @@
-#The project was abandoned because of https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165
+#This project was abandoned because [Moxie Marlinspike said he was not OK with LibreSignal using the Open Whisper Systems servers and the name "Signal"](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165).
+
+In the same thread, Marlinspike said that he would be willing to consider ["a clean, well written, and well tested" pull request that would add WebSocket support to the Android version of Signal](https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-226646872). This would effectively eliminate Signal's dependency on GCM and thus allow the official Signal app to function on custom Android ROMs that do not include Google Play Services. There is now [a bounty on making this pull request](https://www.bountysource.com/issues/35722527-create-proper-pull-request-to-add-libresignal-s-websocket-support-to-ows-signal), and the person/team making the pull request would also receive whatever the [BitHub](https://whispersystems.org/blog/bithub/) payout would be at the time. Marlinspike expects it to have high battery consumption and an unreliable user experience, but would be fine with it if it comes with a warning and only runs in the absence of Play Services.
+
+To be clear, Signal relying on GCM is only an issue for people who use a custom Android ROM without Google Play Services. For the vast majority of people who do have Google Play on their phone, this issue is completely irrelevant.  Signal is designed so that [GCM is only used for a wakeup event and never sees any of the encrypted Signal messages](http://support.whispersystems.org/hc/en-us/articles/215843598-Why-GCM-Does-Google-see-my-messages-).
+
+There are two ways in which you can help make the pull request. If you are able to contribute code, check out [this page about contributing code to Signal-Android](https://github.com/WhisperSystems/Signal-Android/blob/master/CONTRIBUTING.md). If you are not able to contribute code, consider contributing to the aforementioned bounty.
+
+The following text is outdated.
 
 # LibreSignal for Android
 
