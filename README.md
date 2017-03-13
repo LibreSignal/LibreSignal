@@ -1,4 +1,4 @@
-#This GitHub repository has been abandoned
+#This GitHub repository has been abandoned. There is [a FAQ about what to do](https://github.com/LibreSignal/LibreSignal/wiki/What-to-do-after-LibreSignal-was-abandoned%3F) when LibreSignal stops working (because of the version check).
 
 LibreSignal was started so that people using Google-free devices could communicate with people using the official Signal clients. Signal did not support these devices at the time. **Signal now officially supports Google-free devices.** If you don't have Google Play on your phone, you can download the APK from [here](https://signal.org/android/apk/).
 
